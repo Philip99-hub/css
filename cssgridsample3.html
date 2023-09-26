@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container3{
+            border: 3px groove silver;
+            display: grid;
+            grid-template-columns: 200px 200px 200px 200px 200px;
+            grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;
+            grid-row-gap: 15px;
+            grid-column-gap: 100px;
+        }
+        .container3 div{
+            border: 2px solid green;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .h1{
+            grid-column-start: 1;
+            grid-row-start: 1;
+            grid-column-end: 6;
+            grid-row-end: 2;
+        }
+        .p1{
+            grid-column-start: 1;
+            grid-row-start: 2;
+            grid-column-end: 5;
+            grid-row-end: 4;
+        }
+        .img1{
+            grid-column-start: 1;
+            grid-row-start: 4;
+            grid-column-end: 1;
+            grid-row-end: 6;
+        }
+        .img2{
+            grid-column-start: 2;
+            grid-row-start: 4;
+            grid-column-end: 3;
+            grid-row-end: 6;
+        }
+        .img3{
+            grid-column-start: 3;
+            grid-row-start: 4;
+            grid-column-end: 4;
+            grid-row-end: 6;  
+        }
+        .s1{
+            grid-column-start: 5;
+            grid-row-start: 2;
+            grid-column-end: 6;
+            grid-row-end: 6;  
+        }
+        .f1{
+            grid-column-start: 1;
+            grid-row-start: 6;
+            grid-column-end: 6;
+            grid-row-end: 7;  
+        }
+    </style>
+</head>
+<body>
+    <div class="container3">
+        <div class="h1">heading</div>
+        <div class="p1">paragraph</div>
+        <div class="s1">sidebar</div>
+        <div class="img1">imag1</div>
+        <div class="img2">imag2</div>
+        <div class="img3">imag3</div>
+        <div class="f1">footer</div>
+    </div>
+</body>
+</html>

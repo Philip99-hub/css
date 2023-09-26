@@ -1,0 +1,39 @@
+h2{
+    color: aqua;
+    text-align: center;
+    border: 2px dotted green;
+}
+h1{
+    color: blue;
+    text-align: center;
+    border: 2px solid rgb(15, 15, 11); 
+}
+p {
+    color: brown;
+}
+
+#head2 {
+    background-color: aqua;
+    color: green;
+}
+
+.demo {
+    background-color: blueviolet;
+    color: beige;
+
+}
+div span{
+    background-color: aqua;
+}
+.div1 p{
+    color: red;
+}
+
+input[type='text']{
+    border: 5px solid green;
+    margin: 5px;
+}
+input[type="password"]{
+    color: red;
+    border: 5px solid green;
+}
